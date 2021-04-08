@@ -7,9 +7,9 @@ then
     echo "+ use something like:"
     echo "+ $0 <docker image>" 
     echo "+ only iceccd:"
-    echo "+ $0 reliableembeddedsystems/${CONTAINER_NAME}"
+    echo "+ $0 reliableembeddedsystems/${CONTAINER_NAME}:${BRANCH}"
     echo "+ (on one machine) iceccd and central scheduler:"
-    echo "+ $0 reliableembeddedsystems/${CONTAINER_NAME} sched"
+    echo "+ $0 reliableembeddedsystems/${CONTAINER_NAME}:${BRANCH} sched"
     exit
 fi
 
